@@ -1,5 +1,8 @@
 ﻿export class ToDo {
-    constructor(public id: number, public title: string, public done: boolean) {
+    constructor(
+        public id: number,
+        public title: string,
+        public done: boolean) {
 
     }
 }
