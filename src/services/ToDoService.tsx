@@ -1,6 +1,6 @@
 ﻿import { ToDo } from '../models/ToDo';
 
-const TODO_STORE = 'todos';
+const TODO_STORE = 'todos'; // utilização de constantes para evitar erros de digitação ao longo do codigo
 
 export const get = (): ToDo[] => {
     const data = localStorage.getItem(TODO_STORE) || '';
